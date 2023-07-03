@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Md. Tusher Mollah</title>
+    <link>https://md-tusher-mollah.github.io/publication-type/1/</link>
+      <atom:link href="https://md-tusher-mollah.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://md-tusher-mollah.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://md-tusher-mollah.github.io/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>A Numerical Investigation of the Inter-Layer Bond and Surface Roughness during the Yield Stress Buildup in Wet-On-Wet Material Extrusion Additive Manufacturing</title>
+      <link>https://md-tusher-mollah.github.io/publication/mollah-numerical-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/mollah-numerical-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Reinforcement with 3D Concrete Printing: Experiments and Numerical Modelling</title>
+      <link>https://md-tusher-mollah.github.io/publication/spangenberg-integrating-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/spangenberg-integrating-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation on corner precision at different corner angles in material extrusion additive manufacturing: An experimental and computational fluid dynamics analysis</title>
+      <link>https://md-tusher-mollah.github.io/publication/mollah-investigation-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/mollah-investigation-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Fiber Orientation during Additive Manufacturing-Compression Molding Processes</title>
+      <link>https://md-tusher-mollah.github.io/publication/seta-modelling-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/seta-modelling-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling of Additive Manufacturing–Compression Molding Process using Computational Fluid Dynamics</title>
+      <link>https://md-tusher-mollah.github.io/publication/seta-modelling-2022-1/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/seta-modelling-2022-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bingham fluid flow through oscillatory porous plate with ion-slip and hall current</title>
+      <link>https://md-tusher-mollah.github.io/publication/mollah-bingham-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/mollah-bingham-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fluid flow along the Riga plate with the influence of magnetic force in a rotating system</title>
+      <link>https://md-tusher-mollah.github.io/publication/islam-fluid-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/islam-fluid-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hall effects on Casson fluid flow along a vertical plate</title>
+      <link>https://md-tusher-mollah.github.io/publication/akter-hall-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://md-tusher-mollah.github.io/publication/akter-hall-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
