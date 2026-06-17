@@ -1,48 +1,68 @@
-#!/usr/bin/env python3
-"""Extract the first four large images from a publication PDF.
-Usage: python tools/extract_pdf_figures.py "papers/journal/example.pdf" "publication/example/figures"
-"""
-import sys, pathlib, fitz
-from PIL import Image
-MIN_AREA=45000
-MAX_DIM=1400
 
-def save_resized(pix, out_path):
-    mode='RGB' if pix.alpha==0 else 'RGBA'
-    img=Image.frombytes(mode, [pix.width, pix.height], pix.samples)
-    if mode=='RGBA':
-        bg=Image.new('RGB', img.size, (255,255,255)); bg.paste(img, mask=img.split()[3]); img=bg
-    else:
-        img=img.convert('RGB')
-    img.thumbnail((MAX_DIM,MAX_DIM), Image.LANCZOS)
-    img.save(out_path, 'JPEG', quality=86, optimize=True)
+import re
+from pathlib import Path
+import fitz
+from PIL import Image, ImageChops
 
-def main(pdf_path, out_dir):
-    pdf_path=pathlib.Path(pdf_path); out_dir=pathlib.Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
-    doc=fitz.open(pdf_path); seen=set(); candidates=[]
-    for page_idx in range(min(len(doc), 20)):
-        for imginfo in doc[page_idx].get_images(full=True):
-            xref=imginfo[0]
-            if xref in seen: continue
-            seen.add(xref)
-            try:
-                pix=fitz.Pixmap(doc, xref)
-                if pix.n - pix.alpha >= 4:
-                    pix=fitz.Pixmap(fitz.csRGB, pix)
-                w,h=pix.width,pix.height
-                if w*h < MIN_AREA or w < 180 or h < 120: continue
-                if max(w/h, h/w) > 10: continue
-                candidates.append((page_idx, -(w*h), pix))
-            except Exception:
-                pass
-    candidates.sort(key=lambda x:(x[0], x[1]))
-    for old in out_dir.glob('fig*.*'):
-        old.unlink()
-    for i,(_,__,pix) in enumerate(candidates[:4], start=1):
-        save_resized(pix, out_dir/f'fig{i}.jpg')
-    print(f'Extracted {min(4,len(candidates))} figure(s) to {out_dir}')
+def caption_blocks(page, fig_no):
+    pat=re.compile(r'^\s*(fig\.?|figure)\s*%d\b[\.\s:-]'%fig_no, re.I)
+    blocks=[]
+    data=page.get_text('dict')
+    for b in data.get('blocks',[]):
+        if 'lines' not in b: continue
+        txt=' '.join(s.get('text','') for l in b.get('lines',[]) for s in l.get('spans',[]))
+        txt=re.sub(r'\s+',' ',txt).strip()
+        if pat.search(txt): blocks.append((fitz.Rect(b['bbox']), txt))
+    if not blocks:
+        pat2=re.compile(r'\b(fig\.?|figure)\s*%d\b'%fig_no, re.I)
+        for b in data.get('blocks',[]):
+            if 'lines' not in b: continue
+            txt=' '.join(s.get('text','') for l in b.get('lines',[]) for s in l.get('spans',[]))
+            txt=re.sub(r'\s+',' ',txt).strip()
+            if pat2.search(txt) and len(txt)<600: blocks.append((fitz.Rect(b['bbox']), txt))
+    return blocks
 
-if __name__=='__main__':
-    if len(sys.argv)!=3:
-        print(__doc__); sys.exit(1)
-    main(sys.argv[1], sys.argv[2])
+def trim_whitespace(img):
+    bg=Image.new('RGB', img.size, (255,255,255))
+    diff=ImageChops.difference(img.convert('RGB'), bg)
+    bbox=diff.getbbox()
+    if not bbox: return img
+    x0,y0,x1,y1=bbox; pad=12
+    return img.crop((max(0,x0-pad), max(0,y0-pad), min(img.width,x1+pad), min(img.height,y1+pad)))
+
+def extract_caption_figures(pdf_path, outdir):
+    outdir=Path(outdir); outdir.mkdir(parents=True, exist_ok=True)
+    for f in outdir.glob('fig*.*'): f.unlink()
+    doc=fitz.open(pdf_path)
+    saved=[]
+    for n in range(1,5):
+        found=None
+        for pi,page in enumerate(doc):
+            cbs=caption_blocks(page,n)
+            if cbs:
+                cbs=sorted(cbs, key=lambda x:x[0].y0)
+                found=(page,cbs[0][0]); break
+        if not found: continue
+        page,cap_rect=found; W,H=page.rect.width,page.rect.height
+        y1=max(5,cap_rect.y0-8); y0=max(0,y1-min(420,H*0.55))
+        if y1 < H*0.28: y0=0
+        x0=30; x1=W-30
+        if cap_rect.x1 < W*0.55: x1=W*0.55
+        elif cap_rect.x0 > W*0.45: x0=W*0.45
+        if cap_rect.width > W*0.45: x0=30; x1=W-30
+        clip=(fitz.Rect(x0,y0,x1,y1) & page.rect)
+        if clip.is_empty or clip.height<40: continue
+        pix=page.get_pixmap(matrix=fitz.Matrix(2.2,2.2),clip=clip,alpha=False)
+        img=Image.frombytes('RGB',[pix.width,pix.height],pix.samples)
+        img=trim_whitespace(img)
+        if img.width<120 or img.height<80: continue
+        out=outdir/f'fig{n}.jpg'; img.save(out,quality=88,optimize=True); saved.append(out)
+    return saved
+
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) != 3:
+        print('Usage: python tools/extract_pdf_figures.py <paper.pdf> <output-figures-folder>')
+        raise SystemExit(1)
+    saved=extract_caption_figures(sys.argv[1], sys.argv[2])
+    print(f'Saved {len(saved)} figures')
