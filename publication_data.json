@@ -10,7 +10,7 @@
     "featured": false,
     "image": "",
     "slug": "experimental-and-numerical-investigation-of-fluid-flow-behavior-in-infusion",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available yet.",
     "bibkey": "experimental_and_numerical_investigation_of_fluid_flow_behavior_in_infusion"
   },
   {
@@ -24,7 +24,7 @@
     "featured": false,
     "image": "",
     "slug": "numerical-analysis-of-coaxially-3d-printed-lunar-habitats-integrating-regolith",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Space research is shifting its focus from low-gravity platforms to Moon and Mars exploration, requiring advanced habitat construction. This paper proposes to integrate the 3D printing of regolith and Phase Change Materials (PCM), with a particular interest in lunar habitats. A coaxial printing approach is numerically analyzed, enabling the simultaneous deposition of a regolith shell, providing structural integrity, and a PCM core that helps regulate the interior habitat temperature in a passive manner. Simulations show that 3D printing with a coaxial nozzle can effectively control the shell-core (internal) structure of the habitat wall by adjusting printing parameters or by constructing multi-strand composite walls. The PCM core becomes thicker when using a smaller layer height or a higher extrusion speed during printing. We then examine the expected thermal response of the habitat, initially made of pure regolith and later incorporating the PCM. With just regolith, results indicate that one can select adequate thermo-optical properties at the wall external boundary, and wall thickness, to control the mean temperature in the interior, and associated ﬂuctuations, respectively. Incorporating the PCM, either in single or multiple regolith-PCM strands, is shown to effectively stabilize this internal temperature (\u0002Ti →0 K), improving thermal performance and habitat design, and reducing the quantity of required regolith and binder. Since binder has to be brought from Earth, this reduction can be a major factor in enabling sustainable construction on the Moon and beyond.",
     "bibkey": "numerical_analysis_of_coaxially_3d_printed_lunar_habitats_integrating_regolith"
   },
   {
@@ -38,8 +38,22 @@
     "featured": true,
     "image": "/media/publication_figures/featured_offearth.svg",
     "slug": "a-virtual-3d-printing-framework-for-off-earth-construction",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "3D printing, due to its digital nature, offers a practical approach to autonomous off-Earth construction by utilizing local materials, thereby reducing the reliance on Earth-based resources and manpower. Implementing large-scale and rapid 3D printing of structures in extraterrestrial environments poses unique challenges due to conditions such as altered gravity, vacuum, and extreme thermal variations. These challenges are compounded by the fact that replicating altered gravity on Earth is not feasible for extended periods of time. Therefore, a virtual system is needed to advance the 3D printing capabilities. This paper presents computational fluid dynamics (CFD) model, validated through experimental 3D printing of lunar regolith simulant-based geopolymer on Earth. The model is used to simulate the 3D printing of structures under altered gravity conditions. The results provide insights into geometrical precision and deformation as gravity varies across different celestial bodies, as well as the influence of regolith mortar properties and nozzle diameter when focusing on printing on the Moon. The results highlight ways to control the curing kinetics of the lunar regolith mortar in order to print fast and on larger scale. Understanding construction under different gravity levels represents a transformative step towards realizing human dreams of colonizing and exploring other planets. The first step is establishing a self-sustaining lunar outpost, which has long been a key objective in advancing human space exploration [1,2]. Building infrastructure like bases, landing pads, and habitats requires various protective measures, including radiation protection, thermal insulation, exhaust plume containment, and micro-meteoroid shielding. Therefore, innovative solutions are essential from both material science and engineering perspectives. 3D printing technology was conceptualized for the construction of lunar habitats back in 2005 [3,4]. On Earth, 3D printing has demonstrated considerable potential in construction due to its unparalleled versatility and efficiency in fabricating complex structures. Given its digital nature, this technology is highly promising for offEarth construction, where minimal supervision will be required. There are, however, a variety of challenges arising from both the material and printing processes, as well as unknown structural behavior under altered environmental conditions. Transporting materials from Earth is impractical, underscoring the imperative of in-situ resource utilization (ISRU) [5,6]. The regolith available on the celestial bodies is the obvious choice for off-Earth construction. For instance, lunar regolith serves as a raw material for producing aggregates [7], binders [8,9], and reinforcements [3,10], ensuring its versatility. Notably, National Aeronautics and Space Administration (NASA) supported projects focuses on the use of 3D printing ∗Corresponding author. E-mail addresses: mtumo@dtu.dk, tusher.bsmrstu@gmail.com (M.T. Mollah), berse@dtu.dk (B. Šeta). with lunar regolith simulants to create the Lunar Plume Alleviation Device [11,12]. Similarly, the European Space Agency (ESA) proposed a visionary concept in 2016 entitled ‘‘Moon Village’’ [13], advocating for a permanent lunar surface outpost developed through international collaboration. For extrusion-based 3D printing, regolith can be processed into feedstock composition in the form of filament, paste, or mortar using methods such as polymer-based regolith composites [14], sulfur concrete [6], and geopolymers [9]. These methods involve several stages, including crushing and grinding, binder selection and mixing, and rheology modification with additives and thixotropic agents [15, 16] before the actual printing process. Rheological characterization of the feedstock is essential for ensuring extrudability and identifying issues, such as interlayer bonding, that could affect print quality. Environmental conditions in space, including altere",
     "bibkey": "a_virtual_3d_printing_framework_for_off_earth_construction"
+  },
+  {
+    "type": "Journal Publications",
+    "title": "Roadmap for off-Earth construction: science, technology, and engineering needs",
+    "authors": "Lappa et al.",
+    "venue": "Journal of Physics: Materials",
+    "year": "2026",
+    "doi": "10.1088/2515-7639/ae7b88",
+    "url": "",
+    "featured": false,
+    "image": "",
+    "slug": "roadmap-off-earth-construction",
+    "abstract": "Materials science underpins national economies and infrastructures worldwide, contributing significantly to the delivery of key services, as well as underpinning multiple industrial sectors, including space. The space sector, represents a cornerstone of technological progress, driving both direct and indirect innovation across many terrestrial fields. Taken together, materials science and the space sector represent a transformative frontier for innovation that remains only partially exploited, offering opportunities for scientific, economic, and societal advancement. In this context, this roadmap presents a special focus on where such interplay can yield fruitful outcomes over the next two decades, exploring specific intersections between these fields. The rationale behind this is routed in the current demand and forward view for specialised materials to address both terrestrial challenges and extraterrestrial ambitions, with the global space economy projected to reach $1.8 trillion by 2035, requiring a concerted focus on interdisciplinary collaboration. Microgravity provides a unique platform to achieve this, enabling critical insights, more precise control over material formation and the creation of advanced materials with enhanced properties for diverse applications. These breakthroughs are already informing terrestrial applications across industries, from semiconductors to pharmaceuticals, while laying the groundwork for advanced manufacturing in space. Emerging sectors such as the “In-Orbit Economy” and in-situ resource utilisation (ISRU) further underscore this critical opportunity, emphasising the need for resilient materials that can withstand the harsh conditions of space and utilise extraterrestrial resources sustainably. This roadmap brings together a diverse array of contributions covering relevant subjects across these areas—from space exploration and ISRU to the production of new inorganic, organic, and even “living” materials on microgravity platforms—while paying special attention to concrete examples, i.e. cases with a technological readiness level of 4 or higher, which warrant continued attention and effort. Page 2 of 163 AUTHOR SUBMITTED MANUSCRIPT - JPMATER-101238.R1 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 Accepted Manuscript 1 - Introduction Marcello Lappa1 and Philip Carvil2 1 University of Strathclyde, Department of Mechanical and Aerospace Engineering, University of Strathclyde, James Weir Building, 75 Montrose Street, Glasgow, G1 1XJ, United Kingdom 2 Science and Technology Facilities Council (STFC, part of UK Research and Innovation), Business and Innovation Directorate, RB2, Daresbury Laboratory, Sci-Tech Daresbury, Keckwick Lane, Cheshire, WA4 4AD, United Kingdom Status The field of advanced materials, also termed “materials innovation”, is considered one of the key transformative technologies driving progress across industrial sectors globally. It represents a significant opportunity for economic growth and technological development, grounded in the material science communities strong research and translation capabilities, coupled with the challenges set by a a competitive industrial and investment landscape [1-3]. One industrial sector, where this growing need, and opportunity, for innovation, is particularly evident is the “space” sector, w",
+    "bibkey": "lappa_roadmap_2026"
   },
   {
     "type": "Journal Publications",
@@ -52,7 +66,7 @@
     "featured": true,
     "image": "/media/publication_figures/featured_advanced_science.svg",
     "slug": "subvoxel-control-of-fiber-orientation-via-multidirectional-shearing-in-3d",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "This programmability is demonstrated through mechanical and thermal tests, illustrating a localized and controllable response to external stimuli. Achieving such complex anisotropy holds potential across several ﬁelds, including wearables and biomedical implants, lightweight composite structures, and energy storage technologies such as batteries and supercapacitors.",
     "bibkey": "subvoxel_control_of_fiber_orientation_via_multidirectional_shearing_in_3d"
   },
   {
@@ -66,7 +80,7 @@
     "featured": false,
     "image": "",
     "slug": "numerical-modeling-of-fiber-orientation-in-multi-layer-isothermal-material",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Fiber orientation is a critical factor in determining the mechanical, electrical, and thermal properties of 3Dprinted short-fiber polymer composites. However, the current numerical studies on predicting fiber orientation are limited to straight single-strand configurations, while the actual printed parts are often composed of complex multi-layer structures. To address this issue, we conducted numerical simulations of material extrusion in multi-layer big-area additive manufacturing without any post-deposition strand morphology modification mechanism. By examining the effects of material properties and printing conditions when extruding and depositing strands on a fixed substrate as well as previously deposited layers, it was possible to observe the complex interplay between multiple layers and its impact on fiber orientation. The work and methodology presented in this paper can be used to identify optimal extrusion-to-nozzle speed ratios, material rheology, fiber content, and fiber aspect ratio to achieve the desired performance and thermo/mechanical properties of additively manufactured parts. This work is an important contribution towards the manufacture of highperformance, short-fiber polymer composites as the presented methodology can enable engineers to precisely predict and tailor the fiber orientation in 3D printed parts.",
     "bibkey": "numerical_modeling_of_fiber_orientation_in_multi_layer_isothermal_material"
   },
   {
@@ -80,7 +94,7 @@
     "featured": false,
     "image": "",
     "slug": "3d-concrete-printing-using-computational-fluid-dynamics-modeling-of-material",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "This paper investigates the role of slip boundary conditions in computational fluid dynamics modeling of ma terial extrusion and layer deposition during 3D concrete printing. The mortar flow governed by the Navier-Stokes equations was simulated for two different slip boundary conditions at the extrusion nozzle wall: no-slip and freeslip. The simulations were conducted with two constitutive models: a generalized Newtonian fluid model and an elasto-viscoplastic fluid model. The cross-sectional shapes of up to three printed layers were compared to the experimental results from literature for different geometrical- and speed-ratios. The results reveal that employing free-slip boundary conditions at the extrusion nozzle wall improves layer-mimicking quality for both constitutive models, indicating the presence and importance of a lubricating layer of fine particles at the concrete-solid wall interface. This enhanced performance is primarily due to the observed decrease in extrusion pressure that minimizes layer height- and width-deviations compared to the experimental prints. Furthermore, the free-slip boundary conditions play an important role in predicting the multilayer prints, its deformation and groove shapes.",
     "bibkey": "3d_concrete_printing_using_computational_fluid_dynamics_modeling_of_material"
   },
   {
@@ -94,7 +108,7 @@
     "featured": true,
     "image": "/media/publication_figures/featured_rebar.svg",
     "slug": "mollah-2023-computational",
-    "abstract": "",
+    "abstract": "A challenge for 3D Concrete Printing is to incorporate reinforcement bars without compromising the concreterebar bonding. In this paper, a Computational Fluid Dynamics (CFD) model is used to analyze the deposition of concrete around pre-installed rebars. The concrete is modelled with a yield-stress dependent elastoviscoplastic constitutive model. The simulated cross-sections of the deposited layers are compared with exper iments under different configurations and rebar sizes, and found capable of capturing the air void formation with high accuracy. This proves model robustness and provides a tool for running digital experiments prior to fullscale tests. Additionally, the model is employed to conduct a parametric study under three different rebarconfigurations: i) no-rebar; ii) horizontal rebar; and iii) cross-shaped (horizontal and vertical) rebars. The re sults illustrate that air voids can be eliminated in all investigated cases by changing the toolpath, process pa rameters, and rebar joint geometry, which emphasizes the great potential of the digital model.",
     "bibkey": "mollah_2023_computational"
   },
   {
@@ -108,7 +122,7 @@
     "featured": false,
     "image": "",
     "slug": "seta-2023-modeling",
-    "abstract": "",
+    "abstract": "The fiber orientation in composite materials is highly dependent on the manufacturing process and plays a crucial role in determining the mechanical, thermal, and electrical properties of the fabricated parts. Several simulation frameworks have been developed to predict the fiber orientation in the printed strands for Material EXtrusion Additive Manufacturing (MEX-AM) process, but studies have been limited to planar and 2D model reductions. Consequently, it is currently impossible to predict the full spatial variation of fiber orientations in a three-dimensional printed strand, and thus the effects of printing conditions remain not well understood. This work seeks to address this issue by introducing the first three-dimensional model capable of simulating the MEXAM process with fiber-reinforcements. A fully coupled model is developed in this work, which is based on the finite-volume method and solved in the open-source multiphase software OpenFOAM. Using this framework, we explored the effects of different printing conditions on fiber orientation and strand shape morphology, and we compared our results to experimental observations when possible. We found that the extrusion and nozzle ve locities significantly affected the fiber orientation while altering the gap distance between the nozzle exit and substrate had a limited impact. Moreover, increasing anisotropy using longer fibers and higher volume fractions had little influence on the fiber orientation, but their impact on the rheology altered the strand shape consid erably. Prediction of fiber orientation for different printing conditions within strands will open the possibility of manufacturing products that has locally engineered properties and tailored anisotropic behavior.",
     "bibkey": "seta_2023_modeling"
   },
   {
@@ -145,12 +159,12 @@
     "authors": "E.A. Khalid, A.K. Issam, M.T. Mollah, J. Spangenberg",
     "venue": "Archives of Materials Science and Engineering 121(2), 71–79",
     "year": "2023",
-    "doi": "",
+    "doi": "10.5604/01.3001.0053.8488",
     "url": "",
     "featured": false,
     "image": "",
     "slug": "numerical-modelling-of-planned-corner-deposition-in-3d-concrete-printing",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Purpose: Analysis of different path planning strategies and the effects of changing printhead direction in the geometrical conformity and the process precision around 90° corner in order to enable a simple and cost-effective way of facilitating the determination of an optimal printing mode for fast and accurate print corners in 3D concrete printing. Design/methodology/approach: The material flow is characterized by a viscoplastic Bingham fluid. The printhead moves according to a prescribed speed to print the trajectory. The model solves the Navier-Stokes equations and uses the volume of fluid (VOF) technique. The acceleration steps and jerk (j) carry out the direction change. A smoothing factor is provided to smooth the toolpath. Several simulations were performed by varying the smoothing factor and jerk. Findings: Overfilling at the sharp corner was found when the printhead velocity was kept constant while extruding mortar at a fixed extrusion velocity; however, proportional extrusion velocity with the printhead motion has improved the quality of the corner. Otherwise, a slight improvement in the corner shape related to applying a jerk was found. Research limitations/implications: The Computational Fluid Dynamics (CFD) model could take an important amount of computing time to solve the problem; however, it serves as an efficient tool for accelerating different costly and time-consuming path planning processes for 3D concrete printing. Smaller angles and tilted printhead positions should be numerically and experimentally investigated in future research. Practical implications: The developed CFD model is suited for executing parametric studies in parallel to determine the appropriate printing motion strategy for each trajectory with corners. Originality/value: Computational Fluid Dynamics investigation of the path planning strategy for printing trajectory with a right-angle corner in 3D concrete printing.",
     "bibkey": "numerical_modelling_of_planned_corner_deposition_in_3d_concrete_printing"
   },
   {
@@ -178,7 +192,7 @@
     "featured": false,
     "image": "",
     "slug": "numerical-predictions-of-bottom-layer-stability-in-material-extrusion-additive",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "4.—e-mail: josp@mek.dtu.dk Robocasting and 3D concrete printing are technologies that belong under the umbrella term material extrusion additive manufacturing. These two freeform fabrication methods are used to produce 3D structures/components in materials such as ceramic pastes, thermosets, and concrete. Common for the materials is their viscoplastic behavior during deposition and structural buildup (i.e., increase in yield stress) after deposition. The material’s complex nature makes it a non-trivial task to ensures that printed layers do not deform when depositing additional layers on top. In this article, we numerically investigate the inﬂuence of the yield stress buildup of viscoplastic materials on the stability of the bottom layer during multilayer printing. Speciﬁcally, we have developed a computational ﬂssssuid dynamics model that applies a scalar approach to alter the yield stress. The novel model provides fundamental knowledge on how to design the material’s rheology, so the bottom layer can withstand both the hydrostatic and extrusion pressure.",
     "bibkey": "numerical_predictions_of_bottom_layer_stability_in_material_extrusion_additive"
   },
   {
@@ -248,7 +262,7 @@
     "featured": false,
     "image": "",
     "slug": "mollah-ion-slip-2021",
-    "abstract": "",
+    "abstract": "Received: 3 March 2021 Accepted: 1 September 2021 This paper investigates the remarkable effects for introducing the Ion-slip characteristics in the magnetohydrodynamic phenomena on the drift of Bingham fluid when flowing through the inner territory of two porous parallel plates in correspondence with the suction case. The lower plate (L-plate) is as steady while the upper one (Uplate) is oscillatory, which oscillates in its own plane at time t>0. A magnetic field, which is uniform, is affixed perpendicular to the plates. The U-plate temperature oscillates while the L-plate temperature is constant. Numerical performance is presented by the MATLAB R2015a simulation tool with the explicit Finite difference Method (FDM) algorithm. To ensure the preciseness and convergence of the solutions, careful attention has been given on the criteria of stability and convergence of the FDM schemes. As an outcome, the converged solution is obtained for Pr ≥ 0.066, βi ≥ 2, Ha ≤ 20, k0 ≤ 8, S ≥ −10 and Re ≥ −0.017 with the arbitrary choice of βe = 0.10 and Ec = 0.01. The mesh sensibility test gives the competent mesh space at (m,n)=(60,60). The time sensibility test ensures that the solutions at dimensionless time, τ=2.0 will be steadystate. The exactitude of the current study is obtained by comparing with the published results. Finally, the physical influences of several governing parameters, including Ionslip on the fluid property like velocity, local shear stress, temperature and Nusselt number are discussed and decorated graphically.",
     "bibkey": "mollah_ion_slip_2021"
   },
   {
@@ -332,7 +346,7 @@
     "featured": false,
     "image": "",
     "slug": "mollah-emhd-2019",
-    "abstract": "",
+    "abstract": "Received: 1 April 2019 Accepted: 10 June 2019 The numerical study of EMHD laminar flow of Bingham fluid flowing among two Riga plates with thermal radiation has been established. Both the Riga plates, upper and lower, are taken as stationary. Constant heat transfer is considered for both Riga plates. The governing equations for the problem have been transformed into dimensionless non-linear PDEs by using usual transformations. The obtained non-dimensional PDEs have been solved numerically by applying the explicit FDM. MATLAB has been conducted for the numerical simulation. The stability analysis stated that the governing equations will be converged for 0.09, rP  1.00 D R  with 0.05, 0.0001 Y  = = . As an outcome, the behavior of several interesting parameters on the flow pattern and on the local shear stress including local Nusselt number have been shown graphically and tabular form. The appropriate mesh space and steady-state solution have been found at ( ) ( ) , 40,40 m n = and = 4.00 respectively. Finally, a comparison with several published results has been discussed.",
     "bibkey": "mollah_emhd_2019"
   },
   {
@@ -346,7 +360,7 @@
     "featured": false,
     "image": "",
     "slug": "mollah-mhd-2019",
-    "abstract": "",
+    "abstract": "Received: 12 June 2019 Accepted: 18 September 2019 Bingham fluid through porous parallel plates with Ion-slip and Hall currents has been studied numerically. The non-linear PDEs, governing the problem under assumptions, have been transformed into dimensionless non-linear PDEs by using usual transformations. The obtained dimensionless governing equations have been solved numerically by applying the explicit finite difference method (FDM) with the help of MATLAB R2015a tool. The time sensitivity test is performed for the steady-state solution and is obtained at dimensionless time τ=4.00. It is also observed that the secondary velocity reaches the steady-state more gradually than the primary velocity and temperature profiles. The appropriate mesh space (m=40 and n=40) is obtained by the mesh sensitivity test. The impact of various interesting parameters on the primary velocity, secondary velocity and temperature profiles, also on the local Nusselt number and shear stress have been analyzed and discussed through the graph in details. Finally, a qualitative and quantitative comparison with the published results has been discussed.",
     "bibkey": "mollah_mhd_2019"
   },
   {
@@ -360,7 +374,7 @@
     "featured": false,
     "image": "",
     "slug": "khatun-emhd-2019",
-    "abstract": "",
+    "abstract": "Received: 25 March 2019 Accepted: 14 June 2019 The Numerical study for the unsteady electro magneto-hydrodynamic (EMHD) Couette flow of Bingham fluid through a porous parallel Riga plates with the consideration of thermal radiation has been carried out. The Couette flow is considered where the upper Riga plate moves with a uniform velocity U0 and the lower Riga plate is stationary. An external uniform magnetic field is applied perpendicular to the plates. Both the upper and lower Riga plates are kept at different but constant temperatures T1 and T2. respectively, where T2>T1. The governing equations have been transformed into dimensionless nonlinear partial differential equations by using usual transformations. The obtained equations have been solved numerically by the explicit finite difference method (FDM) under the stability and convergence analysis. The effects of some important parameters on shear stress, Nusselt number including velocity and temperature distributions have been discussed graphically by MATLAB R2015a.",
     "bibkey": "khatun_emhd_2019"
   },
   {
@@ -388,7 +402,7 @@
     "featured": false,
     "image": "",
     "slug": "mollah-hall-2018",
-    "abstract": "",
+    "abstract": "Hall and Ion-slip effects on unsteady MHD Bingham fluid flow through non-conducting parallel plates with uniform suction has been studied numerically. The fluid motion is subjected to uniform suction and external uniform magnetic field is applied perpendicular to the plates. The lower plate is stationary while upper plate moves with a constant velocity. Both plates are kept at different but constant temperatures. The governing non-linear coupled partial differential equations have been transformed into partial differential equations by usual transformations. The obtained equations have been solved numerically by the explicit finite difference method under the stability and convergence analysis. The effects of some important parameters on shear stress, Nusselt number as well as Primary Velocity, Secondary Velocity and Temperature distributions have been discussed graphically by MATLAB R2015a and Studio Developer FORTRAN 6.6a both. Finally, qualitative and quantitative comparisons of the present study with published results have been discussed.",
     "bibkey": "mollah_hall_2018"
   },
   {
@@ -416,7 +430,7 @@
     "featured": false,
     "image": "",
     "slug": "computational-fluid-dynamics-modeling-and-experimental-analysis-of-rapid-curing",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Integrating rapid-curing mechanisms into the 3D printing of structures offers significant potential to accelerate printing speeds and enhance the mechanical performance. Precise control over curing kinetics is essential to better utilize material flowability during extrusion and ensure adequate solidification after deposition, thereby minimizing deformation and improving layer stability. This study investigates the impact of material curing on the stability and deformation of printed layers using both experiments and computational fluid dynamics (CFD) simulations. A generalized Newtonian model is developed to simulate the rapid buildup of yield stress during the printing process. Simulation results demonstrate good agreement with the experiments, validating the CFD models. Furthermore, the model explains how to control the deformation of the deposited layers as curing progresses over time, providing a new tool to estimate the adequate curing kinetics of the material before printing the next layer on top.",
     "bibkey": "computational_fluid_dynamics_modeling_and_experimental_analysis_of_rapid_curing"
   },
   {
@@ -430,7 +444,7 @@
     "featured": false,
     "image": "",
     "slug": "computational-fluid-dynamics-modeling-of-sequential-multi-material-extrusion-additive",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Integrating multiple materials into extrusion-based additive manufacturing enables novel fabrication techniques and significantly expands the design freedom of the printed parts. However, multi-material extrusion remains a non-trivial task to implement, particularly due to the complex rheological behavior of the materials involved, influencing both the geometrical accuracy of the printed strand and the hardware requirements of the printing setup. A novel computational fluid dynamics (CFD) model has been developed, for simulating the dynamics of multiple material flows with differing rheological properties. Specifically, a scalar advection approach is used to modulate the rheology of the fluids during the extrusion and deposition of layers. To quantify and control the rheological difference between materials, a dimensionless number 𝑌ோோ representing the yield stress reduction ratio is introduced. This parameter enables systematic variation of yield stress between materials and serves as a critical factor in assessing interfacial deformation and print stability. The study investigates strand morphology and the dynamics of material switching, offering insights into how rheological mismatch and process parameters affect multi-material deposition. Overall, it provides a digital tool to better understand and optimize the complex flow phenomena inherent to multi-material extrusion additive manufacturing.",
     "bibkey": "computational_fluid_dynamics_modeling_of_sequential_multi_material_extrusion_additive"
   },
   {
@@ -444,7 +458,7 @@
     "featured": false,
     "image": "",
     "slug": "computational-fluid-dynamics-modelling-of-vacuum-assisted-resin-infusion-in",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "The manufacturing of wind turbine blades predominantly features composite sandwich panels made through the Vacuum-Assisted Resin Infusion (VARI) process. These sandwich regions involve multiple components, which include a lightweight balsa or foam core with grooves and channels encased in noncrimp glass-fibre fabric skins. Understanding resin flow behaviour and infusion time through these materials is difficult as there are a large number of parameters to consider. Therefore, this study focuses on developing a Computational Fluid Dynamics (CFD) model to provide a more accurate prediction of resin flow for the investigation of a wide range of parametric changes. The CFD model is initially developed to simulate resin flow through the lower reinforcement layers and shallow grooves of composite sandwich panels. The simulated flow front has been compared with the experimental ones captured at the top and bottom of the fabric at different infusion times. The experimental and simulated results agree relatively well; providing a new venue for investigating resin infusion performance through complex features of the layup. Furthermore, the model has been exploited to investigate the influence of groove spacing on the flow front, resin-filled volume, and infusion time.",
     "bibkey": "computational_fluid_dynamics_modelling_of_vacuum_assisted_resin_infusion_in"
   },
   {
@@ -458,7 +472,7 @@
     "featured": false,
     "image": "",
     "slug": "optimization-of-core-groove-geometry-for-the-manufacture-and-operation",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available in the uploaded PDF.",
     "bibkey": "optimization_of_core_groove_geometry_for_the_manufacture_and_operation"
   },
   {
@@ -467,12 +481,12 @@
     "authors": "N. Haghighat, M.T. Mollah, S.Y. Sannerud, J. Boyer, J. Spangenberg, S. Jacobsen",
     "venue": "4th RILEM International Conference on Concrete and Digital Fabrication, Technische Universität Braunschweig",
     "year": "2024",
-    "doi": "",
+    "doi": "10.24355/dbbs.084-202408161157-0",
     "url": "",
     "featured": false,
     "image": "",
     "slug": "rheology-and-printability-of-cement-paste-modified-with-filler-from",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": ". Manufactured sand is increasingly used in concrete production. We study the effects of substituting parts of the binder with manufactured filler (particle size 0.04 - 0.250 mm) on the printability of cement paste experimentally and numerically. An experimental program explored water-to-binder ratios of 0.4 and filler-tobinder mass ratios fi/b = 0.15 - 0.85. The study investigated suspension properties and rheology like maximum packing, mini-slump, plastic viscosity, and yield stress. Printability, on a lab scale, was observed by printer flow measurements (“extrudability”) and buildability (shape retention, deformation layer adhesion, deformation, macro voids). Additionally, a computational fluid dynamics model (CFD) is developed to simulate the 3D printing of the filler-modified cement paste and assess its printability. Results show that as maximum packing increases, slump flow (yield stress) decreases as expected. The best shape retention and layer adhesion were found in mixes with maximum packing = 0.94, 0.96, and 0.98. The mix with the highest yield stress showed the best shape retention but had more macro voids in the crosssection and rougher surfaces. To confirm the accuracy of the CFD model, the cross-sectional shapes of the deposited part from simulations are compared with the printed ones. It seems more work is needed to get a good correlation with the same process parameters.",
     "bibkey": "rheology_and_printability_of_cement_paste_modified_with_filler_from"
   },
   {
@@ -486,7 +500,7 @@
     "featured": false,
     "image": "",
     "slug": "mollah-investigation-2022",
-    "abstract": "",
+    "abstract": "This paper investigates the influence of different corner angles on microscale geometry in material extrusion additive manufacturing. Polylactic acid (PLA) was 3D-printed with corner angles of 15°, 30°, 45°, 60°, 75°, 90°, and 135° using Bowden and Direct-drive extruders. A computational fluid dynamics (CFD) model was developed to simulate the polymer flow through the extrusion nozzle of both extruders. The simulated corner geometries were compared with experiments to assess simulation accuracy. This included the primary and secondary mitre cross-sectional width through the corner point of the 3D-printed strands. This enabled a new understanding about the prediction accuracy of the CFD model as well as the state of material at the corners, and the deviation of experimental and simulated corners from the analytical one. Moreover, the amount of over- and under-extrusion around the corner was estimated for experimental and simulated studies compared with the analytical corner, which provided fundamental knowledge on corner precision for angular print paths.",
     "bibkey": "mollah_investigation_2022"
   },
   {
@@ -500,7 +514,7 @@
     "featured": false,
     "image": "",
     "slug": "numerical-modeling-of-fiber-orientation-in-additively-manufactured-composites",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available in the uploaded PDF.",
     "bibkey": "numerical_modeling_of_fiber_orientation_in_additively_manufactured_composites"
   },
   {
@@ -528,7 +542,7 @@
     "featured": false,
     "image": "",
     "slug": "influence-of-the-printing-direction-on-the-surface-appearance-in",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": ". Multi-material fused filament fabrication (FFF) offers the ability to print 3D objects with very diverse surface appearances. However, control of the surface appearance is largely a matter of trial and error unless the employed materials are very similar and very translucent, so we can think of them as blending together. When the multiple materials are fused into one filament in a diamond hotend extruder but do not blend, the resulting surface appearance depends on the printing direction. We explore how this leads to milli-scale colorations as a function of the printing direction. By having preferable printing directions, it is possible to exploit the limited color blending of this nozzle with multiple inlets and one outlet and further enhance particular color effects, such as goniochromatism. We present a framework based on both experimental and computational fluid dynamics analysis for controlling the extrusion process and the coloration of the surface according to preferable printing directions and mixing ratios with the aim of enabling fused filament fabrication of intricate surface appearances.",
     "bibkey": "influence_of_the_printing_direction_on_the_surface_appearance_in"
   },
   {
@@ -537,12 +551,12 @@
     "authors": "E.A. Khalid, A.K. Issam, M.T. Mollah, J. Spangenberg",
     "venue": "Casablanca International Conference on Additive Manufacturing, Morocco",
     "year": "2022",
-    "doi": "",
+    "doi": "10.1007/978-3-031-32927-2_16",
     "url": "",
     "featured": false,
     "image": "",
     "slug": "computational-fluid-dynamics-modelling-of-mortar-extrusion-and-path-planning",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Computational Fluid Dynamics (CFD) modelling has become an important tool for accelerating different costly and time-consuming processes for 3D concrete printing. In this study, a CFD model is developed to simulate the mortar extrusion and deposition ﬂow in order to investigate the path planning at the corner. The mortar is characterized by a viscoplastic Bingham ﬂuid. The printhead moves according to a prescribed speed to print trajectory with a turn of 90° angle. The model solves the Navier Stokes equations and uses the volume of ﬂuid (VOF) technique. This work investigates the effects of changing printhead direction in the geometrical conformity and the process precision. The direction change is carried out by the acceleration steps and jerk. A smoothing factor is provided to smooth the toolpath. Several simulations were performed by varying the smoothing factor and jerk. Overﬁll has occurred at the sharp corner when applying a jerk due to the constant extrusion rate. Dependance between the acceleration steps, the acceleration time limit and the jerk has been found.",
     "bibkey": "computational_fluid_dynamics_modelling_of_mortar_extrusion_and_path_planning"
   },
   {
@@ -570,7 +584,7 @@
     "featured": false,
     "image": "",
     "slug": "spangenberg-integrating-2022",
-    "abstract": "",
+    "abstract": ". 3D Concrete Printing (3DCP) is a technology that recently has attracted the attention of both academia and industry. The technology offers an increased design ﬂexibility and has been used at various scales, e.g. from furniture to bridges and houses. One of the current challenges in 3DCP is to produce load bearing structures in a single process, i.e. reinforced elements as part of 3DCP process. This is because the integration of vertical reinforcement during the printing process is not trivial. Although few reinforcement methods have been studied, a robust and efﬁcient 3DCP reinforcement solution is yet to be coined. To support these studies in ﬁnding a reinforcement solution ﬁt for 3DCP, while limiting experimental efforts, we offer a computational ﬂuid dynamics (CFD) model that simulate concrete ﬂow around rebars. The numerical model applies 1) an elasto-visco-plastic constitutive law to mimic the ﬂow behavior of the concrete and 2) the volume of ﬂuid method to track the free surface of the concrete. To validate the proposed model, 3DCP experiments are carried out by printing around horizontal and vertical rebars. The rheological behavior of the concrete is characterized on a rheometer using a vane-in-cup measuring system, and such data is included in the CFD model. The experimental and numerical results agree relatively well; providing a new venue for identifying printing strategies that ensures a good bonding between concrete and reinforcement.",
     "bibkey": "spangenberg_integrating_2022"
   },
   {
@@ -584,7 +598,7 @@
     "featured": false,
     "image": "",
     "slug": "seta-modelling-2022",
-    "abstract": "",
+    "abstract": "The production of high-performance thermoplastic composites reinforced with short carbon fibers can be achieved by a novel “additive manufacturing-compression molding” technique. An advantage of such a combination is two-fold: controlled fiber orientation in additive manufacturing and less void content by compression molding. In this study, a computational fluid dynamics model has been developed to predict the behavior of printed layers during fiber-reinforced thermoplastic extrusion and subsequent compression molding. The fiber orientation was modelled with the simple quadratic closure model. The interaction between the fibers was included using a rotary diffusion coefficient that becomes significant in concentrated regimes. Finally, the second rank orientation tensor was coupled with the momentum equation as an anisotropic part of the stress term. The effect of different fiber orientation within printed layers was investigated to determine the favorable printing scenarios in the strands that undergo compression molding afterwards. The developed numerical model enables design of high-performance composites with tunable mechanical properties.",
     "bibkey": "seta_modelling_2022"
   },
   {
@@ -640,7 +654,7 @@
     "featured": false,
     "image": "",
     "slug": "computational-fluid-dynamics-modelling-and-experimental-analysis-of-material-extrusion",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available yet.",
     "bibkey": "computational_fluid_dynamics_modelling_and_experimental_analysis_of_material_extrusion"
   },
   {
@@ -654,7 +668,7 @@
     "featured": false,
     "image": "",
     "slug": "unsteady-mhd-bingham-fluid-flow-through-a-parallel-plate-with",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available yet.",
     "bibkey": "unsteady_mhd_bingham_fluid_flow_through_a_parallel_plate_with"
   },
   {
@@ -668,7 +682,7 @@
     "featured": false,
     "image": "",
     "slug": "numerical-analysis-on-unsteady-heat-transfer-of-viscous-compressible-boundary",
-    "abstract": "Abstract will be added here after the final PDF, accepted manuscript, or DOI abstract is provided. The page is ready to display the abstract, DOI/paper links, citation information, and Figures 1–4.",
+    "abstract": "Abstract not available yet.",
     "bibkey": "numerical_analysis_on_unsteady_heat_transfer_of_viscous_compressible_boundary"
   }
 ]

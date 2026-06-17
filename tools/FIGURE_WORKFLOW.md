@@ -1,21 +1,34 @@
 # Publication figure workflow
 
-For each publication page, upload Figures 1–4 to the paper folder like this:
+The website displays publication figures from each publication folder when image files exist in its `figures/` subfolder.
 
-```
-publication/paper-slug/figures/fig1.png
-publication/paper-slug/figures/fig2.png
-publication/paper-slug/figures/fig3.png
-publication/paper-slug/figures/fig4.png
-```
+## Folder structure
 
-The page automatically tries `.jpg`, `.jpeg`, `.png`, `.svg`, and `.webp`. Missing figures are hidden.
+- Journal PDFs: `papers/journal/`
+- Conference PDFs: `papers/conference/`
+- Extracted publication figures: `publication/<publication-slug>/figures/`
 
-To extract the first four large images from a PDF on your computer:
+## Batch extraction
 
-```
+Install the requirements once:
+
+```bash
 pip install pymupdf pillow
-python tools/extract_pdf_figures.py papers/my-paper.pdf publication/paper-slug/figures
 ```
 
-Only publish extracted figures when copyright/licensing allows it.
+Then run:
+
+```bash
+python tools/batch_extract_publication_figures.py
+```
+
+The script reads `publication_pdf_map.json`, extracts up to four large images from each mapped PDF, and saves them as:
+
+```text
+publication/<publication-slug>/figures/fig1.jpg
+publication/<publication-slug>/figures/fig2.jpg
+publication/<publication-slug>/figures/fig3.jpg
+publication/<publication-slug>/figures/fig4.jpg
+```
+
+After reviewing the extracted images, commit and push the generated figure files.
